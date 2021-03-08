@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Interact with Google Cloud Pub/Sub service from node.js",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "lint": "eslint ./src --ext .js,.ts",
     "prettier": "prettier --write ."
