@@ -17,9 +17,13 @@ let messageCount = 0;
  * Handler for received message.
  * @param {Object} message
  */
+// eslint-disable-next-line  @typescript-eslint/no-explicit-any
 const messageHandler = (message: any) => {
+  // eslint-disable-next-line no-console
   console.log(`Received message ${message.id}:`);
+  // eslint-disable-next-line no-console
   console.log(`Data: ${message.data}`);
+  // eslint-disable-next-line no-console
   console.log(`tAttributes: ${message.attributes}`);
   messageCount += 1;
 
@@ -31,5 +35,6 @@ const messageHandler = (message: any) => {
 subscription.on(`message`, messageHandler);
 setTimeout(() => {
   subscription.removeListener('message', messageHandler);
+  // eslint-disable-next-line no-console
   console.log(`${messageCount} message(s) received.`);
 }, timeout * 1000);
