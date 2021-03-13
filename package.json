@@ -1,7 +1,7 @@
 {
-  "name": "google-pub-sub-node",
+  "name": "bgs-scrape",
   "version": "1.0.0",
-  "description": "Interact with Google Cloud Pub/Sub service from node.js",
+  "description": "Script to get details of cards from BGS site.",
   "main": "lib/index.js",
   "private": true,
   "scripts": {
@@ -12,18 +12,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/normancarcamo/google-pub-sub-node.git"
+    "url": "git+https://github.com/normancarcamo/bgs-scrape.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/normancarcamo/google-pub-sub-node/issues"
+    "url": "https://github.com/normancarcamo/bgs-scrape/issues"
   },
   "engines": {
     "node": "^12.10.0"
   },
-  "homepage": "https://github.com/normancarcamo/google-pub-sub-node#readme",
+  "homepage": "https://github.com/normancarcamo/bgs-scrape#readme",
   "dependencies": {
     "@google-cloud/pubsub": "^2.10.0",
     "cors": "^2.8.5",

@@ -1,3 +1,3 @@
-# google-pub-sub-node
+# bgs-scrape
 
-Interact with Google Cloud Pub/Sub service from node.js
+Script to get details of cards from BGS site.
